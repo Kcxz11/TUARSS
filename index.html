@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TUARSS - Tienda Escolar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .producto {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+    }
+    .producto h2 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .producto p {
+      color: #555;
+    }
+    .producto button {
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .producto button:hover {
+      background-color: #357abd;
+    }
+    footer {
+      background-color: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TUARSS</h1>
+    <p>Tu tienda escolar de confianza</p>
+  </header>
+
+  <main>
+    <div class="producto">
+      <img src="https://via.placeholder.com/200x150?text=Cuaderno" alt="Cuaderno">
+      <h2>Cuaderno universitario</h2>
+      <p>$1.500 CLP</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/200x150?text=Lápices" alt="Lápices">
+      <h2>Set de lápices</h2>
+      <p>$2.000 CLP</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/200x150?text=Mochila" alt="Mochila">
+      <h2>Mochila escolar</h2>
+      <p>$15.000 CLP</p>
+      <button>Comprar</button>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 TUARSS - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
