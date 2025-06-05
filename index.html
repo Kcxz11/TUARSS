@@ -1,46 +1,4 @@
-<h1>Bienvenido a TUARSS 🛒</h1>
-<p>Productos escolares para todos</p>
-
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <div>
-    <img src="Lapiz.jpg" alt="Lápiz escolar" width="200">
-    <h3>Set de lápices</h3>
-    <p>$1.000 CLP</p>
-  </div>
-
-  <div>
-    <img src="Cuaderno.jpg" alt="Cuaderno escolar" width="200">
-    <h3>Cuaderno universitario</h3>
-    <p>$1.500 CLP</p>
-  </div>
-
-  <div>
-    <img src="Mochila.jpg" alt="Mochila escolar" width="200">
-    <h3>Mochila resistente</h3>
-    <p>$15.000 CLP</p>
-  </div>
-</div><h1>Bienvenido a TUARSS 🛒</h1>
-<p>Productos escolares para todos</p>
-
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <div>
-    <img src="Lapiz.jpg" alt="Lápiz escolar" width="200">
-    <h3>Set de lápices</h3>
-    <p>$1.000 CLP</p>
-  </div>
-
-  <div>
-    <img src="Cuaderno.jpg" alt="Cuaderno escolar" width="200">
-    <h3>Cuaderno universitario</h3>
-    <p>$1.500 CLP</p>
-  </div>
-
-  <div>
-    <img src="Mochila.jpg" alt="Mochila escolar" width="200">
-    <h3>Mochila resistente</h3>
-    <p>$15.000 CLP</p>
-  </div>
-</div><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -48,92 +6,67 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f9f9f9;
-    }
-    header {
-      background-color: #4a90e2;
-      color: white;
-      padding: 20px;
       text-align: center;
-    }
-    main {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
       padding: 20px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
     }
     .producto {
       background-color: white;
-      padding: 15px;
+      border: 1px solid #ddd;
       border-radius: 10px;
+      padding: 15px;
+      width: 220px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      text-align: center;
     }
     .producto img {
       width: 100%;
-      height: 150px;
-      object-fit: contain;
+      height: auto;
+      border-radius: 5px;
     }
-    .producto h2 {
-      font-size: 18px;
-      margin: 10px 0;
+    .producto h3 {
+      margin: 10px 0 5px 0;
     }
     .producto p {
-      color: #555;
-    }
-    .producto button {
-      background-color: #4a90e2;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .producto button:hover {
-      background-color: #357abd;
-    }
-    footer {
-      background-color: #4a90e2;
-      color: white;
-      text-align: center;
-      padding: 15px;
+      margin: 0;
+      font-weight: bold;
+      color: #007bff;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>TUARSS</h1>
-    <p>Tu tienda escolar de confianza</p>
-  </header>
+  <h1>Bienvenido a TUARSS 🛒</h1>
+  <p>Tu tienda de útiles escolares al mejor precio</p>
 
-  <main>
+  <div class="productos">
     <div class="producto">
-      <img src=Cuaderno.jpg
-      <h2>Cuaderno universitario</h2>
+      <img src="Lapiz.jpg" alt="Lápiz escolar">
+      <h3>Set de lápices</h3>
+      <p>$1.000 CLP</p>
+    </div>
+
+    <div class="producto">
+      <img src="Cuaderno.jpg" alt="Cuaderno escolar">
+      <h3>Cuaderno universitario</h3>
       <p>$1.500 CLP</p>
-      <button>Comprar</button>
     </div>
 
     <div class="producto">
-      <img src="https://via.placeholder.com/200x150?text=Lápices" alt="Lápices">
-      <h2>Set de lápices</h2>
-      <p>$2.000 CLP</p>
-      <button>Comprar</button>
-    </div>
-
-    <div class="producto">
-      <img src="https://via.placeholder.com/200x150?text=Mochila" alt="Mochila">
-      <h2>Mochila escolar</h2>
+      <img src="Mochila.jpg" alt="Mochila escolar">
+      <h3>Mochila resistente</h3>
       <p>$15.000 CLP</p>
-      <button>Comprar</button>
     </div>
-  </main>
-
-  <footer>
-    © 2025 TUARSS - Todos los derechos reservados
-  </footer>
+  </div>
 
 </body>
 </html>
